@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Decodificador</title>
+</head>
+<body>
+
+    <header>
+        <img src="./assents/Logo.png" alt="logo Alura">
+        <h1>Decodificador de Texto</h1>
+    </header>
+    
+    <main class="apresentacao__conteudo">  
+
+        <section class="flexivel_input" id="section_entrada">  
+            <div class="div_texto_entrada">
+                <textarea id="texto_entrada" placeholder="Digite o texto aqui"></textarea>
+            </div>
+
+            <div class="flexivel_img">
+                <img class="flexivel_imagem" src="./assents/bi_exclamation-circle-fill.png">
+                <span class="flexivel_span">Apenas letras minúsculas e sem acento.</span>
+            </div>
+
+            <div class="flexivel_botoes">                
+                <button class="botao_escuro botoes" id="botao_codifica">Criptografar</button>
+                <button class="botao_claro botoes"id="botao_decodifica" >Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="flexivel_output">
+
+            <div class="texto_vazio"id="texto_vazio">
+                
+                    <img class="imagem_menino" src="./assents/foca.png.png" alt="imagem foca">
+                    <div class="texto_vazio_p">
+                        <p class="frase_1">Nenhuma mensagem encontrada</p>
+                        <p class="frase_2">Digite um texto que você deseja encriptografar ou descriptografar</p>
+                    </div>
+                 
+            </div> 
+
+            <div class="texto_saida" id="saida_texto_codificado">
+
+                <p class="texto_codificado" id="texto_codificado"></p>
+                <div class="div_botao_copiar">
+                    <button class="botao_escuro botoes" id="botao_copiar">Copiar</button>
+                    <button class="botao_claro botoes" id="botao_reiniciar">Reiniciar</button>
+                </div>
+
+            </div>
+            
+
+        </section> 
+
+    </main>
+
+    <footer>
+        <div class="footer_texto">
+            <span>Desenvolvido por Eduardo silva - T6 ONE Oracle Alura © 2024</span> 
+        </div> 
+        
+        <section>          
+            <div class="footer_icones ">
+                <a href="https://www.linkedin.com/in/eduardo-silva-8088ba244/"><img class=" footer_icones  " src="./assents/linkedin.png" alt="imagem icone linkedin"></a>   
+            </div>
+            <div class=" footer_icones  ">
+                <a href="https://www.instagram.com"><img class=" footer_icones  " src="./assents/instagram.png" alt="imagem icone instagran"> </a>
+            </div>
+            <div class=" footer_icones">
+                <a href="https://github.com/Duhsv92"> <img class=" footer_icones  " src="./assents/github.png" alt="imagem icone github"> </a>  
+            </div>
+        </section>
+           
+    </footer>
+    <script src="app.js"></script>
+    
+</body>
+
+
+</html>
