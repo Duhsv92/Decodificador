@@ -1,3 +1,0 @@
-# Decodificador
-# Decodificador
-# Decodificador
